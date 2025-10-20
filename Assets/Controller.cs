@@ -3,9 +3,10 @@ using UnityEngine.AI;
 
 public class Controller : MonoBehaviour
 {
-    public GameObject target;
+    public GameObject target, boss;
     private NavMeshAgent agent;
     private Animator animator;
+    public float RotateSpeed;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -17,8 +18,17 @@ public class Controller : MonoBehaviour
     void Update()
     {
         agent.destination = target.transform.position;
+        rotateTowardsTarget();
     }
+    void rotateTowardsTarget()
+    {
+        float stepSize = Time.deltaTime * RotateSpeed;
+        Vector3 targetDir = boss.transform.position - transform.position;
+        Vector3 newDir = Vector3.RotateTowards(transform.forward, targetDir, stepSize, 0.0f);
+        transform.rotation = Quaternion.LookRotation(newDir);
 
+
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Target"))
