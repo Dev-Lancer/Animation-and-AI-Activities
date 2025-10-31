@@ -237,6 +237,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RPGHeroPBR (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1319517528997712, guid: 1543549dcdf638d488bd40cb68dd9b8e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4927681395739018, guid: 1543549dcdf638d488bd40cb68dd9b8e, type: 3}
       propertyPath: m_LocalScale.x
       value: 4
@@ -1194,6 +1198,98 @@ MonoBehaviour:
   m_IgnoreFromBuild: 0
   m_ApplyToChildren: 1
   m_AffectedAgents: ffffffff
+--- !u!1 &431285858 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1451845051877740, guid: 1543549dcdf638d488bd40cb68dd9b8e, type: 3}
+  m_PrefabInstance: {fileID: 2096122617}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &431285859 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1295594974198416, guid: 1543549dcdf638d488bd40cb68dd9b8e, type: 3}
+  m_PrefabInstance: {fileID: 2096122617}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &431285860 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1691216730602416, guid: 1543549dcdf638d488bd40cb68dd9b8e, type: 3}
+  m_PrefabInstance: {fileID: 2096122617}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &431285861 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1227096717869718, guid: 1543549dcdf638d488bd40cb68dd9b8e, type: 3}
+  m_PrefabInstance: {fileID: 2096122617}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &431285862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431285858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03ca45bb53dc94f478358a1b6475653d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChainLength: 2
+  Target: {fileID: 0}
+  Pole: {fileID: 0}
+  Iterations: 10
+  Delta: 0.001
+  SnapBackStrength: 1
+--- !u!114 &431285863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431285859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03ca45bb53dc94f478358a1b6475653d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChainLength: 2
+  Target: {fileID: 0}
+  Pole: {fileID: 0}
+  Iterations: 10
+  Delta: 0.001
+  SnapBackStrength: 1
+--- !u!114 &431285864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431285860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03ca45bb53dc94f478358a1b6475653d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChainLength: 2
+  Target: {fileID: 0}
+  Pole: {fileID: 0}
+  Iterations: 10
+  Delta: 0.001
+  SnapBackStrength: 1
+--- !u!114 &431285865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431285861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03ca45bb53dc94f478358a1b6475653d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChainLength: 2
+  Target: {fileID: 0}
+  Pole: {fileID: 0}
+  Iterations: 10
+  Delta: 0.001
+  SnapBackStrength: 1
 --- !u!1001 &449187768
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3494,6 +3590,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RPGHeroPBR (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1319517528997712, guid: 1543549dcdf638d488bd40cb68dd9b8e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4927681395739018, guid: 1543549dcdf638d488bd40cb68dd9b8e, type: 3}
       propertyPath: m_LocalScale.x
       value: 4
@@ -4770,6 +4870,18 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1319517528997712, guid: 1543549dcdf638d488bd40cb68dd9b8e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2096122620}
+    - targetCorrespondingSourceObject: {fileID: 1227096717869718, guid: 1543549dcdf638d488bd40cb68dd9b8e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 431285865}
+    - targetCorrespondingSourceObject: {fileID: 1691216730602416, guid: 1543549dcdf638d488bd40cb68dd9b8e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 431285864}
+    - targetCorrespondingSourceObject: {fileID: 1295594974198416, guid: 1543549dcdf638d488bd40cb68dd9b8e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 431285863}
+    - targetCorrespondingSourceObject: {fileID: 1451845051877740, guid: 1543549dcdf638d488bd40cb68dd9b8e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 431285862}
   m_SourcePrefab: {fileID: 100100000, guid: 1543549dcdf638d488bd40cb68dd9b8e, type: 3}
 --- !u!1 &2096122618 stripped
 GameObject:
