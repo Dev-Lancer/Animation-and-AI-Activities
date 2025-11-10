@@ -6,6 +6,7 @@ ModelImporter:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -36,6 +37,9 @@ ModelImporter:
 =======
   externalObjects: {}
 >>>>>>> Stashed changes
+=======
+  externalObjects: {}
+>>>>>>> Stashed changes
   materials:
     materialImportMode: 2
     materialName: 0
@@ -57,7 +61,11 @@ ModelImporter:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     animationCompression: 3
+=======
+    animationCompression: 1
+>>>>>>> Stashed changes
 =======
     animationCompression: 1
 >>>>>>> Stashed changes
@@ -126,6 +134,7 @@ ModelImporter:
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -656,6 +665,10 @@ ModelImporter:
     human: []
     skeleton: []
 >>>>>>> Stashed changes
+=======
+    human: []
+    skeleton: []
+>>>>>>> Stashed changes
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -666,6 +679,7 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -681,6 +695,8 @@ ModelImporter:
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
@@ -690,6 +706,9 @@ ModelImporter:
   avatarSetup: 0
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
