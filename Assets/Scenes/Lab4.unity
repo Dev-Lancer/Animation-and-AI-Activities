@@ -119,6 +119,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< Updated upstream
 --- !u!1001 &48555552
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2108,6 +2109,8 @@ Transform:
   - {fileID: 628634907}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!1 &912043597
 GameObject:
   m_ObjectHideFlags: 0
@@ -2119,7 +2122,10 @@ GameObject:
   - component: {fileID: 912043600}
   - component: {fileID: 912043599}
   - component: {fileID: 912043598}
+<<<<<<< Updated upstream
   - component: {fileID: 912043601}
+=======
+>>>>>>> Stashed changes
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2194,12 +2200,18 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 912043597}
   serializedVersion: 2
+<<<<<<< Updated upstream
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: -9.3, y: 1, z: 82.1}
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+>>>>>>> Stashed changes
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< Updated upstream
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &912043601
 MonoBehaviour:
@@ -2444,6 +2456,9 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 4.0000005, y: 0.2719382, z: 4.000001}
   m_Center: {x: -0.000037014484, y: -0.054799296, z: -0.00026100874}
+=======
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> Stashed changes
 --- !u!1 &1254764710
 GameObject:
   m_ObjectHideFlags: 0
@@ -2454,7 +2469,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1254764712}
   - component: {fileID: 1254764711}
+<<<<<<< Updated upstream
   - component: {fileID: 1254764713}
+=======
+>>>>>>> Stashed changes
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -2542,6 +2560,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+<<<<<<< Updated upstream
 --- !u!114 &1254764713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4276,12 +4295,17 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 4.0000005, y: 0.2719382, z: 4.000001}
   m_Center: {x: -0.000037014484, y: -0.054799296, z: -0.00026100874}
+=======
+>>>>>>> Stashed changes
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 912043600}
   - {fileID: 1254764712}
+<<<<<<< Updated upstream
   - {fileID: 843073637}
   - {fileID: 663501440}
   - {fileID: 1030629400}
+=======
+>>>>>>> Stashed changes
